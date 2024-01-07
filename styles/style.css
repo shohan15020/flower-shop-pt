@@ -83,7 +83,8 @@ header,
 }
 
 /* featured section start */
-#featured , #instagram {
+#featured,
+#instagram {
     padding: 100px 0;
 }
 
@@ -161,13 +162,13 @@ header,
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 100px 0 ;
+    padding: 100px 0;
 }
 
 .hot-deal-main .hot-deal-text {
     width: 75%;
     max-width: 450px;
-    text-align:center;
+    text-align: center;
 }
 
 .hot-deal-main .hot-deal-text * {
@@ -183,43 +184,97 @@ header,
     font-size: 40px;
     font-weight: 800;
 }
-.hot-deal-main .hot-deal-text p{
+
+.hot-deal-main .hot-deal-text p {
     margin-bottom: 60px;
 }
-.hot-deal-main .hot-deal-image{
+
+.hot-deal-main .hot-deal-image {
     max-width: 318px;
 }
-.hot-deal-main .hot-deal-image img{
+
+.hot-deal-main .hot-deal-image img {
     width: 100%;
 }
 
 /* instagram section */
-.instagram-img{
+.instagram-img {
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 24px;
 }
+
 /* newsletter section */
-#newsletter{
+#newsletter {
     margin: 128px 0;
 }
-.newsletter-main{
+
+.newsletter-main {
     background-image: url("../images/newsletter.png");
     background-repeat: no-repeat;
     background-size: cover;
     padding: 122px 0;
 }
-#newsletter form{
+
+#newsletter form {
     max-width: 800px;
     display: flex;
     gap: 10px;
 }
-#newsletter form input{
+
+#newsletter form input {
     flex-grow: 1;
     border: none;
     padding: 0px 10px;
 }
-.section-heading p{
+
+.section-heading p {
     margin-bottom: 30px;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background: #111010;
+    margin-top: 128px;
+}
+
+.footer-container {
+    padding: 128px;
+    text-align: center;
+}
+
+.footer-container>h2 {
+    color: #FFF;
+    font-family: Lato;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 24px;
+}
+
+.footer-container > h2 > span {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.footer-container p {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+    /* 166.667% */
+    ;
+}
+
+.footer-container>small {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
 }
